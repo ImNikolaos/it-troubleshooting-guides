@@ -1,0 +1,14 @@
+Issue: Printer Not Responding
+
+Scenario:
+User reports that their network printer is not printing.
+
+Steps Taken:
+1. Checked printer power and connection
+2. Verified printer is online in system settings
+3. Restarted print spooler service (Windows)
+   Command: net stop spooler && net start spooler
+4. Reinstalled printer driver
+
+Resolution:
+Driver was corrupted. Reinstallation resolved the issue.
